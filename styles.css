@@ -4,7 +4,7 @@ div.image-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- }
+}
 
 div.page {
     display: flex;
@@ -14,6 +14,10 @@ div.page {
 
 div.form-container {
     flex: 2;
+    background-color: rgb(198, 255, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 div.logo {
@@ -28,4 +32,29 @@ div.logo {
 div.image-container footer {
     width: auto;
     text-align: center;
+}
+
+fieldset {
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.text-container {
+    flex: 1;
+    align-content: end;
+}
+
+form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="submit"] {
+    width: 10em;
+    margin: 15px 10px;
+}
+
+form footer {
+    margin-top: auto;
 }

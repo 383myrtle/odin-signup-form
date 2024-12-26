@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./normalize.css">
 </head>
+
 <body>
     <div class="page">
         <div class="image-container">
@@ -19,12 +21,42 @@
         </div>
         <div class="form-container">
             <!--Short paragraph and form section-->
-            <p>Some text about the sign-up page</p>
+            <div class="text-container">
+                <p>
+                    This is not a real online service. You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+            </div>
             <form>
+                <fieldset>
+                    <h2>Let's do this!</h2>
+
+                    <p>
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        <label for="phnum">Phone number</label>
+                        <input type="tel" id="phnum" name="phnum">
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                        <label for="cpassword">Confirm password</label>
+                        <input type="password" id="cpassword" name="cpassword">
+                    </p>
+                </fieldset>
+                <button type="submit">Create account</button>
+                <footer>Already have an account? <a href="">Log in</a></footer>
             </form>
-            <footer>
-            </footer>
         </div>
     </div>
 </body>
+
 </html>
