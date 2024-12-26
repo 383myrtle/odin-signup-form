@@ -58,3 +58,7 @@ button[type="submit"] {
 form footer {
     margin-top: auto;
 }
+
+.form-sheet {
+    display:flex;
+}
