@@ -10,17 +10,15 @@
 </head>
 
 <body>
-    <div class="page">
-        <div class="image-container">
-            <!--Image and logo section-->
+    <div class="signup-page">
+        <div class="logo-and-image">
             <div class="logo">
                 <img src="./images/logo.png" alt="logo">
                 <span>Logo name</span>
             </div>
             <footer>Background: Anne of Green Gables (1979)<br>Nippon Animation, Dir. Isao Takahata</footer>
         </div>
-        <div class="form-container">
-            <!--Short paragraph and form section-->
+        <div class="content-container">
             <div class="text-container">
                 <p>
                     This is not a real online service. 
@@ -34,24 +32,22 @@
             <form action="">
                 <fieldset>
                     <h2>Let's do this!</h2>
-                    <p>
+                    <div class="form-column">
                         <label for="fname">First name</label>
                         <input type="text" id="fname" name="fname">
-                        <label for="lname">Last name</label>
-                        <input type="text" id="lname" name="lname">
-                    </p>
-                    <p>
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email">
-                        <label for="phnum">Phone number</label>
-                        <input type="tel" id="phnum" name="phnum">
-                    </p>
-                    <p>
                         <label for="password">Password</label>
                         <input type="password" id="password" name="password">
+                    </div>
+                    <div class="formcolumn">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="phnum">Phone number</label>
+                        <input type="tel" id="phnum" name="phnum">
                         <label for="cpassword">Confirm password</label>
                         <input type="password" id="cpassword" name="cpassword">
-                    </p>
+                    </div>
                 </fieldset>
                 <button type="submit">Create account</button>
                 <footer>Already have an account? <a href="">Log in</a></footer>
