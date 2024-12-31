@@ -1,4 +1,15 @@
-div.logo-and-image {
+*{
+    box-sizing: border-box;
+}
+
+div.signup-page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.signup-page .logo-and-image {
     background-image: url(./images/bg.jpg);
     flex: 1;
     display: flex;
@@ -6,13 +17,7 @@ div.logo-and-image {
     justify-content: space-between;
 }
 
-div.signup-page {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-}
-
-div.content-container {
+.signup-page .content-container {
     flex: 2;
     background-color: rgb(198, 255, 198);
     display: flex;
@@ -20,18 +25,31 @@ div.content-container {
     justify-content: space-between;
 }
 
-div.logo {
+.logo-and-image .logo {
     background-color: black;
     opacity: 0.4;
     color: white;
-    height: 15vh;
+    height: fit-content;
     min-height: 50px;
     margin-top: 33vh;
 }
 
-div.logo-and-image footer {
-    width: auto;
+.logo-and-image footer {
     text-align: center;
+}
+
+.content-container .text-container {
+    flex: none;
+    align-content: end;
+    padding: 5px 20px ;
+    height: 33vh;
+    overflow: auto;
+}
+
+.content-container form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 form fieldset {
@@ -41,36 +59,21 @@ form fieldset {
     margin: 0;
 }
 
-.text-container {
-    flex: none;
-    align-content: end;
-    padding: 5px 20px ;
-    height: 33vh;
-    box-sizing: border-box;
-    overflow: auto;
+fieldset .form-sheet {
+    display:flex;
+    gap: 5em;
 }
 
-form {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
+label, input {
+    display: block;
+    flex: 1;
 }
 
-button[type="submit"] {
+form button {
     width: 10em;
     margin: 20px;
 }
 
 form footer {
     margin: auto 0px 10px 20px;
-}
-
-.form-sheet {
-    display:flex;
-    gap: 7vw;
-}
-
-label, input {
-    display: block;
-    flex: 1;
 }
