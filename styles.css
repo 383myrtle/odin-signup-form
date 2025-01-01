@@ -18,6 +18,7 @@ div.signup-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: fit-content;
 }
 
 .signup-page .content-container {
