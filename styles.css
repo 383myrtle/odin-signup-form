@@ -22,7 +22,7 @@ div.signup-page {
 
 .signup-page .content-container {
     flex: 2;
-    background-color: rgb(198, 255, 198);
+    background-color: rgb(196, 231, 212);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,6 +60,7 @@ form fieldset {
     border: none;
     padding: 20px;
     margin: 0;
+    background-color: aliceblue;
 }
 
 fieldset header {
