@@ -62,6 +62,10 @@ form fieldset {
     margin: 0;
 }
 
+fieldset header {
+    margin-bottom: 10px;
+}
+
 fieldset .form-sheet {
     display:flex;
     gap: 5em;
@@ -104,4 +108,11 @@ form button {
 
 footer {
     margin: auto 0px 10px 20px;
+}
+
+/* Fonts */
+.content-container .text-container,
+fieldset header {
+    font-weight: 600;
+    font-size: 20px;
 }
