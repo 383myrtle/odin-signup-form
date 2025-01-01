@@ -96,7 +96,8 @@ input:focus {
 input:invalid:focus {
     outline: 2px solid maroon;
 }
-input:invalid {
+
+input:user-invalid {
     border: 1px solid maroon;
 }
 
