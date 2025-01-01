@@ -64,16 +64,41 @@ fieldset .form-sheet {
     gap: 5em;
 }
 
+/* Input and label styling */
 label, input {
     display: block;
     flex: 1;
 }
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid navy;
+    box-shadow: none;
+    outline: 2px solid navy;
+}
+
+input:invalid:focus {
+    outline: 2px solid maroon;
+}
+input:invalid {
+    border: 1px solid maroon;
+}
+
+/* End of input and label styling */
 
 form button {
     width: 10em;
     margin: 20px;
 }
 
-form footer {
+footer {
     margin: auto 0px 10px 20px;
 }
