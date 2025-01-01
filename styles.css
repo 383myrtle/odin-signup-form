@@ -121,6 +121,13 @@ input:user-invalid {
 form button {
     width: 10em;
     margin: 20px;
+    background-color: skyblue;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 2px rgb(0, 0, 0, 0.2);
+    color: white;
+    font-weight: bold;
 }
 
 footer {
