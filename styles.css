@@ -34,11 +34,20 @@ div.signup-page {
     height: fit-content;
     min-height: 50px;
     margin-top: 33vh;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
     width: 100px;
     height: 100px;
+    margin: 0 15px 0 15px;
+}
+
+.logo span {
+    font-family: "Yomogi", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .logo-and-image footer {
@@ -116,7 +125,6 @@ footer {
     margin: auto 0px 10px 20px;
 }
 
-/* Fonts */
 .content-container .text-container,
 fieldset header {
     font-weight: 600;
